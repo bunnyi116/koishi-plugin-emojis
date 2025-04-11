@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-emojis",
   "description": "合并emoji表情",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "contributors": [
     "bunnyi116 <1160706050@qq.com>"
   ],
