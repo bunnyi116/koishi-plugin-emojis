@@ -1,7 +1,10 @@
 {
   "name": "koishi-plugin-emojis",
-  "description": "合成emoji表情",
-  "version": "0.0.1",
+  "description": "合并emoji表情",
+  "version": "1.0.4",
+  "contributors": [
+    "bunnyi116 <1160706050@qq.com>"
+  ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,14 +12,25 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "homepage": "https://github.com/bunnyi116/koishi-plugin-emojis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunnyi116/koishi-plugin-emojis.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "emoji",
+    "kitchen",
+    "emoji-kitchen"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.7"
+  },
+  "koishi": {
+    "description": {
+      "zh": "合成emoji表情"
+    }
   }
 }
